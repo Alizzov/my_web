@@ -1,0 +1,178 @@
+
+/*Обнуление*/
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+/*--------------------*/
+/*Подключение шрифта*/
+
+/*--------------------*/
+/*Адаптация*/
+
+/*--------------------*/
+/*Основная сетка*/
+body {
+	background-color:#DFDFDF;
+	font-family: "Khand";
+}
+
+
+.head {
+	width: 100%;
+	height: 1000px;
+	background: url('/img/header.jpg') no-repeat;
+	background-size:cover;
+	box-shadow: 2px 2px 50px #000000;
+}
+.conteiner {
+	align-items: center;
+	margin: 0 100px;
+}
+.container {
+	margin: 0 410px;
+}
+.h1 {
+	font-size:65px;
+	color: #FFFFFF;
+	text-align: center;
+	padding: 20px 0 600px 0;
+	text-shadow: 1px 1px 20px #000000;
+	
+}
+.subtitle {
+	font-size: 38px;
+	color: #E4E4E4;
+	line-height: 50px;
+}
+.h2 {
+	font-size: 80px;
+	padding: 70px 35px;
+}
+.sub_title {
+	font-size: 36px;
+	color: #000000;
+}
+
+.persona {
+	max-width: 875px;
+	margin: 0 0 50px 0;
+}
+
+.section {
+	margin: 50px 0 ;
+}
+.h5 {
+	font-size: 70px;
+	text-align: center;
+	padding: 70px 0 20px 0;
+}
+.h3 {
+	font-size: 65px;
+	padding: 50px 0;
+}
+.h6 {
+	font-size: 65px;
+	padding: 0 0 50px 0;
+}
+
+.photo {
+	position: relative;
+	left: 400px;
+	top: 200px;
+	max-height: 325px;
+	max-height: 421px;
+}
+.photo_two {
+	position: relative;
+	left: 1000px;
+	bottom: 170px;
+}
+.photo_img {
+	max-width: 325px;
+	max-height: 326px;
+}
+.text {
+	font-size: 50px;
+}
+.title {
+	font-size: 45px;
+	line-height: 50px;
+}
+.phote {
+	padding: 20px 0 0 0;
+}
+.text_one {
+	font-size: 50px;
+	padding: 10px 0 0 0;
+	text-align: center;
+}
+.block_subtitle {
+	background: url('/img/Rectangle\ 2.png');
+	max-height: 476px;
+	max-width: 878px;
+}
+.title_sub {
+	padding: 12px 0 30px 10px;
+	font-size: 36px;
+}
+.span_photo {
+	margin: 0 -5px 0 0;
+}
+.h4 {
+	font-size: 58px;
+	margin: 0 0 10px 0;
+}
+.s1 {
+	max-width: 880px;
+	max-height: 500px;
+}
+.s2 {
+	max-width: 880px;
+	max-height: 500px;
+}
+.s3 {
+	max-height: 555px;
+	max-width: 880px;
+}
+.h10 {
+	font-size: 80px;
+	text-align: center;
+	margin: 30px;
+}
+/*--------------------*/
+/*Медия запросы*/
+
+/*--------------------*/
